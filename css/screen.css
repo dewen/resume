@@ -1,0 +1,66 @@
+/*
+"Dewen Li Online" stylesheet
+
+Copyright (c) 2012 - 2013, Dewen Li, All rights reserved.
+*/
+
+html { overflow-y: scroll; -webkit-font-smoothing: antialiased; }
+html, body { background: #fff; color: #000; margin: 0; padding: 0; }
+body { font: large/1.556 "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif; word-spacing: 0.1em; /* max-width: 960px; */ margin: 0; padding: 0; }
+pre, kbd, samp, code, var { font: medium/1.75 Consolas, "Andale Mono", Monaco, "Liberation Mono", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", monospace; word-spacing: 0; letter-spacing: 0; }
+ul {margin-left: 20px;}
+li {font-size: 1em;list-style-type: square;}
+
+/* basics */
+.clear { clear: both; }
+
+/* links */
+a { text-decoration: none;color: #000; }
+a:link { border-bottom: 1px dotted; }
+a:visited { border-bottom: 1px dotted; }
+a:link:hover, a:visited:hover { color: FireBrick; border-bottom: 1px solid; }
+
+/* figures and legends */
+.left { float: left; }
+.right { float: right; }
+.top { margin-bottom: 0.3em; display: block; }
+.bottom { display:block; margin-top:0; margin-left:2em; }
+.align_right { text-align: right; }
+
+/* code blocks */
+pre {padding-left: 3.5em; white-space: pre; /* CSS2 */ white-space: pre-wrap; /* CSS 2.1 */ word-wrap: break-word; /* IE */ }
+p { color: #667; margin: 0; padding: 0; }
+
+/* overrides */
+li ol, .q, .v span { margin: 0; }
+code, var, samp { line-height:inherit !important; }
+
+/* headers */
+h2, h3, h4, caption, thead th { font-family: "Essays 1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif; font-weight: normal;  text-shadow: 0 0 1px #667; }
+h1 { font-size: 266.7%; line-height: 1.1; text-align: center; width: 100%; margin: 1.49em 0; }
+h2 { font-size: 210%; line-height: 1.3125; margin: 1.167em 0; text-align: center; clear: both; }
+h3 { font-size: 190%; line-height: 1.167; margin: 1.556em 0; text-align: center; text-transform: uppercase;}
+h4 { font-size: 100%; line-height: 1.167; margin: 1.556em 0; text-align: center; }
+h1.dewen {display: none;border: 0px solid red;margin:0;padding: 0;width: 370px;cursor: pointer;font-family: 'Julius Sans One', sans-serif; text-transform: uppercase; text-shadow: 0 0 1px #667; font-weight: normal;}
+.resume .container {margin-bottom: 20px;}
+.resume .resources a {border: 0;}
+.resume .resources i {font-size: 2em;color: #999;}
+.resume .resources i:hover {color: FireBrick;}
+.resume .header {margin: 20px 0;border-bottom: 1px solid #000;padding-bottom: 10px;}
+.resume h1 {font-size: 2em;margin:0 0 20px;padding: 0;cursor: pointer;font-weight: normal;text-align: left;}
+.resume h3 {font-size: 1em;margin:0;padding: 0;font-weight: normal;text-align: left;}
+.resume h4 {font-size: 0.9em;margin:0;padding: 0;font-weight: normal;text-align: left;}
+.resume pre {margin: 0;padding:0;}
+.resume .contact p {font-size: 0.8em;margin: 0;padding: 0;cursor: pointer;font-weight: normal;text-align: right;}
+.resume .contact dl {font-size: 0.7em;margin: 0;padding: 0;cursor: pointer;font-weight: normal;text-align: right;}
+.resume .contact dt {width: 48%;text-align: right;display: inline;margin-right: 10px;text-decoration: none;border-bottom: 1px dotted;}
+.resume .contact dd {width: 50%;display: inline-block;text-align:left;}
+
+.bottom_bar { height: 30px; background: #dfdfdf; border-top: 1px solid #a3a3a3; font-weight: normal; position: fixed; bottom: 0; left; 0; display: none; width: 100%; font-family: 'Julius Sans One', sans-serif; font-size: 12px; opacity:0.9; filter:alpha(opacity=90);}
+.bottom_bar li {list-style: none;}
+.bottom_bar a {border: 0; color: red;}
+.bottom_bar a:hover {border: 0;}
+.bottom_bar i {font-size: 1.5em;color: red;}
+
+.pop_message{cursor: pointer;}
+span.pop_message{border-bottom: 1px dotted #ccc;}

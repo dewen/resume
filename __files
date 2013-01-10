@@ -1,0 +1,28 @@
+./.htaccess
+
+{{{ js
+
+./js/jquery-1.8.3.min.js
+./js/ie.js
+./js/dewen.js
+
+}}}
+{{{ css
+
+./css/screen.css
+./css/print.css
+
+}}}
+{{{ sql
+
+./install.sql
+./install.1.sql
+
+}}}
+{{{ files
+
+./init.php
+./index.php
+./resume/index.php
+
+}}}
