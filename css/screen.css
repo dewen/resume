@@ -57,7 +57,7 @@ h1.dewen {display: none;border: 0px solid red;margin:0;padding: 0;width: 370px;c
 .resume .contact dd {width: 50%;display: inline-block;text-align:left;}
 
 .bottom_bar { height: 30px; background: #dfdfdf; border-top: 1px solid #a3a3a3; font-weight: normal; position: fixed; bottom: 0; left; 0; display: none; width: 100%; font-family: 'Julius Sans One', sans-serif; font-size: 12px; opacity:0.9; filter:alpha(opacity=90);}
-.bottom_bar li {list-style: none;}
+.bottom_bar li {list-style: none;float: left;margin-right: 20px;}
 .bottom_bar a {border: 0; color: red;}
 .bottom_bar a:hover {border: 0;}
 .bottom_bar i {font-size: 1.5em;color: red;}
