@@ -37,7 +37,7 @@ $(document).ready(function() {
             width: '250px'
         },
         themeName: 'all-azure',
-        themePath: '/jquerybubblepopup-themes/',
+        themePath: '/js/jquerybubblepopup-themes/',
         themeMargins: {total: '10px',difference: '10px'},
         mouseOut: 'show'
     };

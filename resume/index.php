@@ -15,7 +15,7 @@ require_once('../init.php');
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
     <link href="/css/jquery-bubble-popup-v3.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/fortawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/fortawesome/css/font-awesome.css">
     <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
     <script type="text/javascript" src="/js/css3-mediaqueries.js"></script>
     <script src="/js/jquery-1.8.3.min.js"></script>
