@@ -69,9 +69,10 @@ require_once('../init.php');
                     <li>Comprehensive knowledge of web applications and development technologies</li>
                     <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"development"}')?>">Experienced user</span> on Linux or other Unix-like OS, familiar with shell commands and scripting.  </li>
                     <li>Relational database design. Working experience with MySQL, PostgreSQL. Training with Oracle.</li>
-                    <li>Working knowledge of site security with secure programming practices.</li>
-                    <li>PHP, JAVA, Cold Fusion</li>
-                    <li>Other skills: OOP Design Patterns, WEB2, Bash, Version Control (CVS, SVN, GIT), Test driven development, XML (RSS, XSD, XSLT, XPATH), Eclipse IDE, Vim. </li>
+                    <li>Knowledge of Zend, Symfony2 frameworks</li>
+                    <li>Programming languages: PHP, JAVA, Cold Fusion</li>
+                    <li>Front-end: Javascript, jQuery, HTML 5, CSS3.
+                    <li>Other skills: OOP Design Patterns, Bash, Version Control (CVS, SVN, GIT), Test driven development, XML(RSS, XSD, XSLT, XPATH), Vim and <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"dev-tools"}')?>">other development tools</span>. </li>
                 </ul>
             </div>
         </div>
@@ -96,15 +97,16 @@ require_once('../init.php');
                 <h3>Yamaha Music Interactive (e-Commerce)</h3>
                 <h4>PHP Web Application Developer</h4>
                 <ul>
-                    <li>Developing the company's primary e-commerce site (http://www.yamahamusicsoft.com/ with 70K visits per month, 500K registered users) on top of framework. Responsible for developing and implementing technical designs for the website. </li>
+                <li>Worked on company's eCommerce site (<a href="http://www.yamahamusicsoft.com/" target="_blank">http://www.yamahamusicsoft.com/</a> with <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"yms-visits"}')?>">70K visits per month</span>, 500K registered users) on top of <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"ymia-framework"}')?>">framework</span>. Responsible for developing and implementing technical designs for the website. </li>
+                    <li>Sphinx based searching, MemCached, scheduler, event handling, Unit test</li>
                     <li>Worked on different projects from other Yamaha music service sites: 
-                        <p>http://services.music.yamaha.com/  Online Services, PHP5, PostgresSQL</p>
+                        <p><a href="http://notestarapp.com/en/tour" target="_blank">http://notestarapp.com/en/tour</a></p>
+                        <p><a href="http://services.music.yamaha.com/radio/faq.html?instrument=Mark%20IV" target="_blank">http://services.music.yamaha.com/radio/</a></p>
                     </li>
-                    <li>Features include Sphinx based searching, MemCached based object caching, template caching, event handling, Unit test by modules</li>
                     <li>Responsible for version build and release with release plan and release notes.</li>
                     <li>Implemented MVC application with variety of design patterns, factory, singleton, observer, decorator and data mapper etc.</li>
-                    <li>Designed and implemented the "Data Access Object" in integration tier for encapsulation of Database access and better DBMS portability</li>
-                    <li>Site backend implementations, includes CMS with ACL controls, reports, product management etc.</li>
+                    <li>Backend development, includes CMS with ACL controls, reports, product management etc.</li>
+                    <li>Frontend with <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"responsive-web-design"}')?>">responsive web design</span>, using HTML5 and CCS3.</li>
                 </ul>
             </div>
         </div>
@@ -120,8 +122,8 @@ require_once('../init.php');
                 <h3>New York Habitat Inc. (Real Estate)</h3>
                 <h4>Internet Specialist/Application developer</h4>
                 <ul>
-                <li>Architect, design and implement Company’s information system. Providing services for employees to work across different countries.</li>
-                <li>Developed company’s website that manages 1500 apartments online and 140,000 visitors per month. Site release manager: http://nyhabitat.com </li>
+                <li>Architect, design and implement Company's information system. Providing services for employees to work across different countries.</li>
+                <li>Developed company's website that manages 1500 apartments online and 140,000 visitors per month. Site release manager: http://nyhabitat.com </li>
                 <li>Analysis and design new Request Process System with HTML template. Maintaining the 100,000 registered client databases.</li>
                 <li>Designed and developed Intranet Apartment Management System according to the business specification. Handles about 12,000 apartments from different cities. Services include searching, mapping, photos, web synchronizing, etc.  </li>
                 <li>SEO project.</li>

@@ -8,10 +8,11 @@ switch(@$_GET['op'])
     case 'skilled-web-dev':
         $s = 'Self evaluated skills: 
             <ul>
-                <li>PHP (8/10)</li>
-                <li>Linux (4/10)</li>
-                <li>MySQL (6/10)</li>
-                <li>OOP (6/10)</li>
+                <li>PHP (8/10) -  Certified PHP4 developer. More working experience with PHP5. Preference building applications on top of frameworks.</li>
+                <li>Linux (4/10) - Development work on Linux environment, good understanding of UNIX like system.</li>
+                <li>MySQL/Postgres (6/10) - familar with SQL, EAV modeling.</li>
+                <li>OOP (6/10) - Familiar with concept and design patterns</li>
+                <li>Version control (8/10) -  Heavy use of version control with CVS, familiar with branching, merging and building processes. Personal projects with Git. Working with SVN for office document management.</li>
             </ul>';
         break;
     case 'years-experience':
@@ -33,7 +34,46 @@ switch(@$_GET['op'])
             <ul>
                 <li>CentOS release 5</li>
                 <li>vim 7.0 - use vi on Linux for coding.</li>
-                <li>CVS as version control</li>
+                <li>Familiar with commands like <em>find, wget, rsync etc</em></li>
+            </ul>';
+        break;
+    case 'ymia-framework':
+        $s = 'Zend Framework alike system with modules,
+            <ul>
+                <li>MVC</li>
+                <li>Template Engine</li>
+                <li>Memcached</li>
+                <li>Sphinx - Full Text Search</li>
+                <li>Localization</li>
+                <li>OFS - Object File System</li>
+                <li>EAV</li>
+            </ul>';
+        break;
+    case 'responsive-web-design':
+        $s = '
+            <ul>
+                <li>Implemented with CSS Grid</li>
+                <li>Media Query</li>
+            </ul>';
+        break;
+    case 'dev-tools':
+        $s = '
+            <ul>
+                <li>Araxis Merge</li>
+                <li>Eclipse PDT</li> 
+                <li>PUTTY</li> 
+                <li>Flowdock</li> 
+                <li>JIRA</li> 
+                <li>Mantis - bug tracking</li> 
+            </ul>';
+        break;
+    case 'yms-visits':
+        $s = '
+            <ul>
+                <li>Around 75K people visits monthly</li>
+                <li>2.5K ~ 3.5K unique visits daily with 5K page views</li> 
+                <li>Bounce rate 35%</li>
+                <li>45% US visits</li>
             </ul>';
         break;
 }

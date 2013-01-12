@@ -1,5 +1,6 @@
 <?
 include_check();
+security_check();
 
 define('ROOT', dirname(__FILE__));
 
@@ -7,6 +8,18 @@ function js_css_ts($fn)
 {
     $f = dirname(__FILE__) . '/' . $fn;
     return (file_exists($f)) ? md5($f) : '';
+}
+
+function is_allowed()
+{
+    $cf = ROOT . '/conf/blocked.php';
+    if (file_exists($cf))
+    {
+        $blocked = include($cf);
+        foreach($blocked as $_)
+            if (strpos($_SERVER['REMOTE_ADDR'], $_)) return false;
+    }
+    return true;
 }
 
 function include_check()
@@ -19,6 +32,10 @@ function include_check()
 
 }
 
+function security_check()
+{
+    if (!is_allowed()) die();
+}
 function isFireFox()
 {
     return (isset($_SERVER['HTTP_USER_AGENT']) && (stripos($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false)) ? true : false;
