@@ -1,8 +1,8 @@
-<?
+<?php
+define('ROOT', dirname(__FILE__));
+
 include_check();
 security_check();
-
-define('ROOT', dirname(__FILE__));
 
 function js_css_ts($fn)
 {
@@ -10,14 +10,14 @@ function js_css_ts($fn)
     return (file_exists($f)) ? md5($f) : '';
 }
 
-function is_allowed()
+function is_allowed($ip)
 {
     $cf = ROOT . '/conf/blocked.php';
     if (file_exists($cf))
     {
         $blocked = include($cf);
         foreach($blocked as $_)
-            if (strpos($_SERVER['REMOTE_ADDR'], $_)) return false;
+            if (strpos($ip, $_) === 0) return false;
     }
     return true;
 }
@@ -34,7 +34,12 @@ function include_check()
 
 function security_check()
 {
-    if (!is_allowed()) die();
+    if (!is_cli() && !is_allowed($_SERVER['REMOTE_ADDR']))
+    {
+        header("HTTP/1.0 404 Not Found");
+        echo file_get_contents(ROOT . '/404.html');
+        die();
+    }
 }
 function isFireFox()
 {
@@ -43,6 +48,13 @@ function isFireFox()
 
 function logging($code)
 {
+    if (is_cli()) return;
+
     $s = $code . " --- " . $_SERVER['REMOTE_ADDR'] . " --- " . date('Y-m-d H:i') .  " \n{{{\n" . var_export($_SERVER, TRUE) . "\n}}}\n\n";
     file_put_contents(ROOT . '/log/page.log', $s, FILE_APPEND);
+}
+
+function is_cli()
+{
+    return (php_sapi_name() === 'cli') ? true : false;
 }

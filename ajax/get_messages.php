@@ -2,21 +2,27 @@
 
 switch(@$_GET['op'])
 {
+    case 'radar':
+        $s = 'GPS Radar is a public-facing, invite-only web and iPhone app, for whose selective community consists of some of the world\'s editors, buyers and influencers. This community uses the app to manage their event invitations, RSVPs, and access content from the show';
+        break;
+    case 'styles':
+        $s = 'GPS Styles is a media hosting and distribution channel';
+        break;
     case 'download-word':
         $s = 'Get a copy of this resume in Word format.';
         break;
     case 'skilled-web-dev':
         $s = 'Self evaluated skills: 
             <ul>
-                <li>PHP (8/10) -  Certified PHP4 developer. More working experience with PHP5. Preference building applications on top of frameworks.</li>
-                <li>Linux (4/10) - Development work on Linux environment, good understanding of UNIX like system.</li>
+                <li>PHP (8/10) -  Certified PHP developer. More working experience with PHP5. Preference building applications on top of frameworks.</li>
+                <li>Linux (5/10) - Development work on Linux environment, good understanding of UNIX like system.</li>
                 <li>MySQL/Postgres (6/10) - familar with SQL, EAV modeling.</li>
-                <li>OOP (6/10) - Familiar with concept and design patterns</li>
-                <li>Version control (8/10) -  Heavy use of version control with CVS, familiar with branching, merging and building processes. Personal projects with Git. Working with SVN for office document management.</li>
+                <li>OOP (7/10) - Familiar with concept and design patterns</li>
+                <li>Version control (8/10) -  Heavy use of version control with CVS, GIT, familiar with branching, merging and building processes. Worked with SVN for office document management.</li>
             </ul>';
         break;
     case 'years-experience':
-        $s = 'Worked with web programming since 2001, more professional train made in the past 6 years.';
+        $s = 'Worked with web programming since 2001, more professional train made in the past 7 years.';
         break;
     case 'scrum-experience':
         $s = 'Most projects developed using agile (scrum), normally 2 - 4 sprints. The tools used include JIRA, Flowdock, Mantis and Google Docs.';

@@ -47,11 +47,12 @@ require_once('../init.php');
                 <h3>SUMMARY</h3>
             </div>
             <div class="eightcol last">
-                <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"skilled-web-dev"}')?>">Skilled PHP web application developer</span>. 
-                Experienced in hands-on 
-                technical design and implementation, performance tuning and 
-                troubleshooting.  Extensive experience building interactive, 
-                database driven web based applications/services. 
+                <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"skilled-web-dev"}')?>">Skilled PHP web application developer</span> 
+                 with professional experience designing and implementing web 
+                 based applications. Extensive Software Development Life Cycle 
+                 experience. Experienced in hands-on technical design, 
+                 implementation, performance tuning and troubleshooting. 
+                 Excellent analytic and problem solving skills. 
             </div>
         </div>
     </div>
@@ -64,15 +65,17 @@ require_once('../init.php');
             </div>
             <div class="eightcol last">
                 <ul>
-                    <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"years-experience"}')?>">6 years experience</span> in multi-tier architecture and full life-cycle software management and development</li>
+                    <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"years-experience"}')?>">7 years experience</span> in multi-tier architecture and full life-cycle software management and development</li>
                     <li>Experienced with developing <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"enterprise"}')?>">enterprise e-Commerce projects</span> with <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"scrum-experience"}')?>">Scrum/Agile methodology</li>
                     <li>Comprehensive knowledge of web applications and development technologies</li>
                     <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"development"}')?>">Experienced user</span> on Linux or other Unix-like OS, familiar with shell commands and scripting.  </li>
-                    <li>Relational database design. Working experience with MySQL, PostgreSQL. Training with Oracle.</li>
-                    <li>Knowledge of Zend, Symfony2 frameworks</li>
-                    <li>Programming languages: PHP, JAVA, Cold Fusion</li>
-                    <li>Front-end: Javascript, jQuery, HTML 5, CSS3.
-                    <li>Other skills: OOP Design Patterns, Bash, Version Control (CVS, SVN, GIT), Test driven development, XML(RSS, XSD, XSLT, XPATH), Vim and <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"dev-tools"}')?>">other development tools</span>. </li>
+                    <li>Databases: Relational database design. Working experience with MySQL, PostgreSQL. Training with Oracle. Knowledge of MSSQL, MongoDB</li>
+                    <li>Languages: PHP, Java, Cold Fusion, ASP, JavaScript</li>
+                    <li>Frameworks: Zend Framework, Symfony2, CodeIgniter</li>
+                    <li>Testing: PHPUnit, SimpleTest and Selenium</li>
+                    <li>Other skills: OOP Design Patterns, WEB2, Bash, Version Control (CVS, Git, SVN, PVCS), Test driven development, XML (RSS, XSD, XSLT, XPath), Eclipse IDE, Vim. </li>
+                    <li>Front-end expertise: HTML5, CSS3, DOM, jQuery.</li>
+                    <li>Open Source CMS/Shopping Cart: Drupal, Joomla, Zen Cart.</li>
                 </ul>
             </div>
         </div>
@@ -91,7 +94,33 @@ require_once('../init.php');
     <div class="container">
         <div class="row">
             <div class="fourcol">
-                <h4>04/2007 - present</h4>
+                <h4>04/2013 - present</h4>
+            </div>
+            <div class="eightcol last">
+                <h3><a href="https://fashiongps.com/" target="_blank">FashionGPS (B2B software)</a></h3>
+                <h4>Senior LAMP Developer</h4>
+                <ul>
+                    <li>Architected and implemented FashionGPS  <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"radar"}')?>">Radar</span>/
+                    <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"styles"}')?>">Styles</span> integration project used for fashion industry clients including Gucci, KCD, DKNY. Load Balanced high volume site built with lightweight PHP framework CodeIgniter2 using jQuery, Bootstrap, MySQL, implemented with template and object caching. </li>
+                    <li>Newly developed B2B application Styles on top of Symfony2.2 to support clients managing their images.  Multiple images uploading with drag and drop with remote image server storage. Intensive development on JavaScript with jQuery.</li>
+                    <li>Developed Styles Image Reporting module for client to review and export their product images. As part of large Symfony project, the Image Report module uses Composer to manage its dependencies, i.e PHPExcel, BundleTools, RadarSync, MVC model test with PHPUnit. </li>
+                    <li>Developed and maintained social media presence and interact on Facebook, Twitter, and LinkedIn. Support direct comments and images posting on user’s social media sites using third party API.  Added LinkedIn and FaceBook login to Radar site with OAuth API.  </li>
+                    <li>Created JSON API to export data for clients and Radar iPhone App. Project developed and tested with Postman Client.  </li>
+                    <li>Optimized performance on both application backend and frontend. Applying various methods to help reduce the server side response time including index adjustment, data caching, minify CSS and JavaScript files. Research and tuned jQuery for better processing time when dealing with DOM objects.</li>
+                    <li>Using JIRA issue tracking system, projects managed and developed with Continuous Integration practice. Work in multi-developer environment of rapid commits to GitHub.</li>
+                    <li>Supporting FashionGPS sales team to archive the goals. Helping junior developers on projects, provide instruction and code review.</li>
+                    <li>Experience configuring LAMP, MAMP and WAMP servers as well as managing entire networks of LAMP machines. Worked closely together with the IT Network Engineer to assist and coordinate the expansion of our site, including servers, website and database.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- }}} -->
+    <!-- {{{ yamaha music interactive -->
+    <div class="container">
+        <div class="row">
+            <div class="fourcol">
+                <h4>04/2007 - 04/2013</h4>
             </div>
             <div class="eightcol last">
                 <h3>Yamaha Music Interactive (e-Commerce)</h3>
@@ -107,6 +136,7 @@ require_once('../init.php');
                     <li>Implemented MVC application with variety of design patterns, factory, singleton, observer, decorator and data mapper etc.</li>
                     <li>Backend development, includes CMS with ACL controls, reports, product management etc.</li>
                     <li>Frontend with <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"responsive-web-design"}')?>">responsive web design</span>, using HTML5 and CCS3.</li>
+                    <li>Marketing support, build newsletter tools/template, export data from SFDC (Saleforce), etc.</li>
                 </ul>
             </div>
         </div>
