@@ -11,6 +11,8 @@ require_once('../init.php');
     <!-- 1140px Grid styles for IE -->
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
     <!-- The 1140px Grid - http://cssgrid.net/ -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/css/1140.css" type="text/css"/>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
@@ -22,7 +24,6 @@ require_once('../init.php');
     <script src="/js/resume.js?<?=js_css_ts('/js/resume.js')?>"></script>
     <script src="/js/scripts/jquery-bubble-popup-v3.min.js?<?=js_css_ts('/js/scripts/jquery-bubble-popup-v3.min.js')?>" type="text/javascript"></script>
     <style type="text/css"></style>
-    <link rel="prefetch" href="/resume/introduction.html">
     <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
 </head>
 <body class="resume">
@@ -35,7 +36,7 @@ require_once('../init.php');
             <div class="sixcol last contact">
                 <dl><dt>E-Mail:</dt><dd>dewen.sinocrest@gmail.com</dd></dl>
                 <dl><dt>Cell phone:</dt><dd>917-640-3289</dd></dl>
-                <dl><dt>Home address:</dt><dd>Great Neck, NY 11021</dd></dl>
+                <dl><dt>Home address:</dt><dd>Jericho, NY 11753</dd></dl>
             </div>
         </div>
     </div>
@@ -65,15 +66,15 @@ require_once('../init.php');
             </div>
             <div class="eightcol last">
                 <ul>
-                    <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"years-experience"}')?>">7 years experience</span> in multi-tier architecture and full life-cycle software management and development</li>
+                    <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"years-experience"}')?>">Over 10 years experience</span> in multi-tier architecture and full life-cycle software management and development</li>
                     <li>Experienced with developing <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"enterprise"}')?>">enterprise e-Commerce projects</span> with <span class="pop_message" rel="<?echo htmlspecialchars('{"id":"scrum-experience"}')?>">Scrum/Agile methodology</li>
                     <li>Comprehensive knowledge of web applications and development technologies</li>
                     <li><span class="pop_message" rel="<?echo htmlspecialchars('{"id":"development"}')?>">Experienced user</span> on Linux or other Unix-like OS, familiar with shell commands and scripting.  </li>
                     <li>Databases: Relational database design. Working experience with MySQL, PostgreSQL. Training with Oracle. Knowledge of MSSQL, MongoDB</li>
-                    <li>Languages: PHP, Java, Cold Fusion, ASP, JavaScript</li>
-                    <li>Frameworks: Zend Framework, Symfony2, CodeIgniter</li>
+                    <li>Languages: PHP (<a href="http://www.zend.com/en/services/certification/zend-certified-engineer-directory#cid=1&sid=NY&certtype_zf=on&certtype_php=on&certtype=ZFPHP&firstname=dewen&lastname=&company=&ClientCandidateID=" class="cert2" target="_blank">certified</a>), Java, Cold Fusion, ASP, JavaScript</li>
+                    <li>Frameworks: Zend Framework (<a href="http://www.zend.com/en/services/certification/zend-certified-engineer-directory#cid=1&sid=NY&certtype_zf=on&certtype_php=on&certtype=ZFPHP&firstname=dewen&lastname=&company=&ClientCandidateID=" target="_blank" class="cert1">certified</a>), Symfony2, CodeIgniter</li>
                     <li>Testing: PHPUnit, SimpleTest and Selenium</li>
-                    <li>Other skills: OOP Design Patterns, WEB2, Bash, Version Control (CVS, Git, SVN, PVCS), Test driven development, XML (RSS, XSD, XSLT, XPath), Eclipse IDE, Vim. </li>
+                    <li>Other skills: OOP Design Patterns, WEB2, Bash, Version Control (CVS, Git, SVN, PVCS), Test driven development, XML (RSS, XSD, XSLT, XPath), Eclipse IDE, Vim. XDebug, XHProf. Developing with Linux, Mac and Windows.</li>
                     <li>Front-end expertise: HTML5, CSS3, DOM, jQuery.</li>
                     <li>Open Source CMS/Shopping Cart: Drupal, Joomla, Zen Cart.</li>
                 </ul>
@@ -90,11 +91,37 @@ require_once('../init.php');
         </div>
     </div>
     <!-- }}} -->
-    <!-- {{{ yamaha music interactive -->
+    <!-- {{{ Institute for Integrative Nutrition -->
     <div class="container">
         <div class="row">
             <div class="fourcol">
-                <h4>04/2013 - present</h4>
+                <h4>04/2013 - 01/2014</h4>
+            </div>
+            <div class="eightcol last">
+                <h3><a href="http://www.integrativenutrition.com/" target="_blank">Institute for Integrative Nutrition (education)</a></h3>
+                <h4>Senior PHP/Drupal Developer</h4>
+                <ul>
+
+                  <li>As Drupal7 module developer on IINLC team, developed Learning Center system backend to deliver course content to students worldwide.</li>
+                  <li>Build distributed system base on Drupal’s Services module with REST web APIs support, allowing front end Apps to consume data through web services.</li>
+                  <li>Module integration with Memcached, Apache Solr, Akamai CDN and Zendesk etc.</li>
+                  <li>Integration of Mandrill transactional mail API into Learning Center, sending web, email and push notifications to students.</li>
+                  <li>Worked on different Drupal and customized cache solutions to improve the performance of application. </li>
+                  <li>Created scheduled process that parses Apache and Drupal logs on the fly. Built a report system that monitoring site performance and data integrity, sending notifications to project owner by email.</li>
+                  <li>Development tools and methods used in work: Github (version control), Jenkins (deployment), New Relic (performance monitoring) , SimpleTest (unit and functional test), Acquia (Drupal hosting service), Drupal modules (services, webform, field_collection, features, elysia_cron, xhprof, etc). Scrum methodology</li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- }}} -->
+    <!-- {{{ FashionGPS -->
+    <div class="container">
+        <div class="row">
+            <div class="fourcol">
+                <h4>04/2013 - 01/2014</h4>
             </div>
             <div class="eightcol last">
                 <h3><a href="https://fashiongps.com/" target="_blank">FashionGPS (B2B software)</a></h3>
@@ -105,7 +132,7 @@ require_once('../init.php');
                     <li>Newly developed B2B application Styles on top of Symfony2.2 to support clients managing their images.  Multiple images uploading with drag and drop with remote image server storage. Intensive development on JavaScript with jQuery.</li>
                     <li>Developed Styles Image Reporting module for client to review and export their product images. As part of large Symfony project, the Image Report module uses Composer to manage its dependencies, i.e PHPExcel, BundleTools, RadarSync, MVC model test with PHPUnit. </li>
                     <li>Developed and maintained social media presence and interact on Facebook, Twitter, and LinkedIn. Support direct comments and images posting on user’s social media sites using third party API.  Added LinkedIn and FaceBook login to Radar site with OAuth API.  </li>
-                    <li>Created JSON API to export data for clients and Radar iPhone App. Project developed and tested with Postman Client.  </li>
+                    <li>Created JSON API to export data for clients and Radar iPhone App. Project developed and tested with POSTMAN Client.  </li>
                     <li>Optimized performance on both application backend and frontend. Applying various methods to help reduce the server side response time including index adjustment, data caching, minify CSS and JavaScript files. Research and tuned jQuery for better processing time when dealing with DOM objects.</li>
                     <li>Using JIRA issue tracking system, projects managed and developed with Continuous Integration practice. Work in multi-developer environment of rapid commits to GitHub.</li>
                     <li>Supporting FashionGPS sales team to archive the goals. Helping junior developers on projects, provide instruction and code review.</li>
@@ -205,27 +232,6 @@ require_once('../init.php');
             </div>
             <div class="eightcol last">
                 <em>Available Upon Request</em>
-            </div>
-        </div>
-    </div>
-    <!-- }}} -->
-    <!-- {{{ resources -->
-    <div class="container resources">
-        <div class="row">
-            <div class="fourcol">
-                <h3 class="download_word">RESOURCES</h3>
-            </div>
-            <div class="eightcol last">
-                <ul>
-                    <li><a href="https://www.facebook.com/dewen.li.526"><i class="icon-facebook-sign"></i></a>: Facebook </li>
-                    <li><a href="http://www.linkedin.com/pub/dewen-li/23/69/311"><i class="icon-linkedin-sign"></i></a>: Linked In</li>
-                    <li><a href="http://sinocrest.com/dewen.li/wiki/">WIKI</a>: Some handy tips collected for development</li>
-                    <?if (isFireFox()):?>
-                    <li><a href="/docs/resume.pdf">PDF</a>: Get a PDF version of resume</li>
-                    <?else:?>
-                    <li><a href="javascript: void(0);" class="print"><i class="icon-print"></i></a> Print this resume</li>
-                    <?endif?>
-                </ul>
             </div>
         </div>
     </div>

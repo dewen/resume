@@ -18,11 +18,17 @@
  */
 $(document).ready(function() {
     var t = $("h1 a.dewen");
+    var cert1 = $("li a.cert1");
+    var cert2 = $("li a.cert2");
     var p = $(".print");
     var b = $('<div class="bottom_bar"></div>');
 
     t.mouseover(function(){showImage(t, 'dewen_photo')});
     t.mouseout(function(){showImage(t, false)});
+    cert1.mouseover(function(){showImage(cert1, 'cert1')});
+    cert1.mouseout(function(){showImage(cert1, false)});
+    cert2.mouseover(function(){showImage(cert2, 'cert2')});
+    cert2.mouseout(function(){showImage(cert2, false)});
     b.appendTo($('body')).delay(2000).fadeIn(400);
 
     // pop bubble messages

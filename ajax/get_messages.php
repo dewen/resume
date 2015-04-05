@@ -22,7 +22,7 @@ switch(@$_GET['op'])
             </ul>';
         break;
     case 'years-experience':
-        $s = 'Worked with web programming since 2001, more professional train made in the past 7 years.';
+        $s = 'Worked on web programming since 2001';
         break;
     case 'scrum-experience':
         $s = 'Most projects developed using agile (scrum), normally 2 - 4 sprints. The tools used include JIRA, Flowdock, Mantis and Google Docs.';
