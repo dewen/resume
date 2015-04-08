@@ -77,6 +77,7 @@ require_once('../init.php');
                     <li>Other skills: OOP Design Patterns, WEB2, Bash, Version Control (CVS, Git, SVN, PVCS), Test driven development, XML (RSS, XSD, XSLT, XPath), Eclipse IDE, Vim. XDebug, XHProf. Developing with Linux, Mac and Windows.</li>
                     <li>Front-end expertise: HTML5, CSS3, DOM, jQuery.</li>
                     <li>Open Source CMS/Shopping Cart: Drupal, Joomla, Zen Cart.</li>
+                    <li>Server and Hosting: Acquia and Amazon EC2 experience.</li>
                 </ul>
             </div>
         </div>
@@ -95,7 +96,7 @@ require_once('../init.php');
     <div class="container">
         <div class="row">
             <div class="fourcol">
-                <h4>04/2013 - 01/2014</h4>
+                <h4>01/2014 - present</h4>
             </div>
             <div class="eightcol last">
                 <h3><a href="http://www.integrativenutrition.com/" target="_blank">Institute for Integrative Nutrition (education)</a></h3>
@@ -108,6 +109,7 @@ require_once('../init.php');
                   <li>Integration of Mandrill transactional mail API into Learning Center, sending web, email and push notifications to students.</li>
                   <li>Worked on different Drupal and customized cache solutions to improve the performance of application. </li>
                   <li>Created scheduled process that parses Apache and Drupal logs on the fly. Built a report system that monitoring site performance and data integrity, sending notifications to project owner by email.</li>
+                  <li>Amazon EC2 and Acquia web host experience. Server LAMP environment setup, code deployment.</li>
                   <li>Development tools and methods used in work: Github (version control), Jenkins (deployment), New Relic (performance monitoring) , SimpleTest (unit and functional test), Acquia (Drupal hosting service), Drupal modules (services, webform, field_collection, features, elysia_cron, xhprof, etc). Scrum methodology</li>
 
 
