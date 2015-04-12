@@ -164,7 +164,7 @@ require_once('../init.php');
                     <li>Responsible for version build and release with release plan and release notes.</li>
                     <li>Implemented MVC application with variety of design patterns, factory, singleton, observer, decorator and data mapper etc.</li>
                     <li>Backend development, includes CMS with ACL controls, reports, product management etc.</li>
-                    <li>Frontend with <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"responsive-web-design"}')?>">responsive web design</span>, using HTML5 and CCS3.</li>
+                    <li>Frontend with <span  class="pop_message" rel="<?echo htmlspecialchars('{"id":"responsive-web-design"}')?>">responsive web design</span>, using HTML5 and CSS3.</li>
                     <li>Marketing support, build newsletter tools/template, export data from SFDC (Saleforce), etc.</li>
                 </ul>
             </div>
